@@ -1,0 +1,16 @@
+services:
+  vinaros:
+    # GitHub Container Registry (Recommended)
+    # simple mode - ghcr.io/alam00000/vinaros-simple:latest
+    # default mode - ghcr.io/alam00000/vinaros:latest
+    # Docker Hub (Alternative)
+    # simple mode - vinarosteam/vinaros-simple:latest
+    # default mode - vinarosteam/vinaros:latest
+    image: ghcr.io/alam00000/vinaros-simple:latest
+    container_name: vinaros
+    restart: unless-stopped
+    ports:
+      - '8080:8080'
+    # For IPv4-only environments
+    #environment:
+    #  - DISABLE_IPV6=true

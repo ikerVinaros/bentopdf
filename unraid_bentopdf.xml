@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>vinaros</Name>
+  <Repository>vinarosteam/vinaros</Repository>
+  <Registry>https://hub.docker.com/r/vinarosteam/vinaros/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/alam00000/vinaros</Support>
+  <Project>https://www.vinaros.com/</Project>
+  <Overview>Uploaded on behalf of creator: alam00000&#13;
+Vinaros is a privacy first PDF Toolkit&#13;
+&#13;
+https://hub.docker.com/r/vinarosteam/vinaros/</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/alam00000/vinaros/refs/heads/main/public/images/favicon.svg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1760606276</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Web Port for Nginx and GUI" Target="8080" Default="8080" Mode="tcp" Description="Port used for Vinaros's web GUI" Type="Port" Display="always" Required="false" Mask="false">80</Config>
+  <TailscaleStateDir/>
+</Container>
+
